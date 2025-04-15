@@ -24,5 +24,41 @@ Este projeto tem como finalidade treinar os conceitos básicos de entrada de dad
 ## 🚀 Como Executar
 
 1. Clone este repositório:
+
    ```bash
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+   ```
+
+2. Compile o arquivo:
+
+   ```bash
+   javac ContaTerminal.java
+
+   ```
+
+3. Execute no terminal (Certifique-se de estar no diretório com a classe ContaTerminal.class):
+
+   ```bash
+   java ContaTerminal
+
+   ```
+
+4. Siga as instruções que aparecerem na tela.
+   ```bash
+   Seja bem vindo, comece a criação de conta!
+   Insira o número da conta (Formato: XXXX):
+   1234
+   Insira o número da agência (Formato: XXX-X):
+   123-4
+   Insira o nome do cliente:
+   Pedro Abreu
+   Insira o saldo:
+   500.75
+    
+    CONTA CRIADA COM SUCESSO!
+    --------------------
+    CONTA: 1234
+    AGÊNCIA: 123-4
+    NOME CLIENTE: PEDRO ABREU
+    SALDO: R$500.75
