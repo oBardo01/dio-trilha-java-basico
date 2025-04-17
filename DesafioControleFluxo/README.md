@@ -14,8 +14,11 @@ Se o segundo número for maior que o primeiro, o programa imprime a contagem de 
 **Exemplo:**
 
 ```bash
-  Entrada: `3` e `7`  
-  Saída:
+  Digite o primeiro parâmetro:
+  3
+  Digite o segundo parâmetro:
+  7
+
   Contador
   1
   2
