@@ -1,18 +1,41 @@
-## Getting Started
+# Desafio Controle de Fluxo - Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um desafio que simula um contador entre dois números fornecidos pelo usuário. O foco principal é praticar a manipulação de entrada de dados, tratamento de exceções e estruturas de repetição.
 
-## Folder Structure
+## Como funciona
 
-The workspace contains two folders by default, where:
+O programa solicita dois números inteiros positivos ao usuário:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- O **primeiro parâmetro** (início)
+- O **segundo parâmetro** (fim)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Se o segundo número for maior que o primeiro, o programa imprime a contagem de `1` até a diferença entre eles.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+**Exemplo:**
 
-## Dependency Management
+> Entrada: `3` e `7`  
+> Saída:
+> Contador
+> 1
+> 2
+> 3
+> 4
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Se os parâmetros forem inválidos (números negativos ou o segundo menor/igual ao primeiro), o programa lança uma exceção personalizada.
+
+## Estrutura do Projeto
+
+- `Contador.java`: Classe principal que executa o programa.
+- `ParametrosInvalidosException.java`: Classe de exceção personalizada (deve ser criada separadamente).
+
+## Requisitos
+
+- Java JDK 8 ou superior
+
+## Execução
+
+Compile e execute no terminal:
+
+```bash
+javac Contador.java ParametrosInvalidosException.java
+java Contador
