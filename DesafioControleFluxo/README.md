@@ -13,13 +13,15 @@ Se o segundo número for maior que o primeiro, o programa imprime a contagem de 
 
 **Exemplo:**
 
-> Entrada: `3` e `7`  
-> Saída:
-> Contador
-> 1
-> 2
-> 3
-> 4
+```bash
+  Entrada: `3` e `7`  
+  Saída:
+  Contador
+  1
+  2
+  3
+  4
+```
 
 Se os parâmetros forem inválidos (números negativos ou o segundo menor/igual ao primeiro), o programa lança uma exceção personalizada.
 
